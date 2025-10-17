@@ -201,7 +201,7 @@ pipex/
 
 ### 🔹 Versión obligatoria
 
-```mermaid
+```
 flowchart TD
     A([Inicio]) --> B[Validar argumentos y abrir archivos]
     B --> C[Crear pipe(fd)]
@@ -221,7 +221,7 @@ flowchart TD
 
 ### 🔸 Versión bonus (`here_doc` y múltiples pipes)
 
-```mermaid
+```
 flowchart TD
     A([Inicio here_doc]) --> B[Leer delimitador del here_doc]
     B --> C[Guardar texto hasta encontrar el delimitador]
